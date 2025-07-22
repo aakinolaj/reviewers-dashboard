@@ -19,14 +19,14 @@ A Streamlit-based NLP dashboard for analyzing and visualizing user reviews (e.g.
 
 ## 🧱 Architecture
 
-![Architecture Diagram](assets/aakinolaj_lda.png)
+![Architecture Diagram](docs/assets/aakinolaj_lda.png)
 
 ---
 
 ## 🛠️ Local Setup
 
 For a step-by-step guide on running the dashboard locally, refer to:  
-📄 [Luxor Dashboard Walkthrough Guide](docs/guide.md)
+📄 [Setup Guide (View Online)](https://aakinolaj.github.io/reviewers-dashboard/docs/setup)
 
 ### Quickstart
 
