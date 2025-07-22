@@ -1,19 +1,21 @@
-# Luxor Dashboard Walkthrough Guide
+# 📊 Luxor Reviewer's Dashboard – Walkthrough Guide
 
-This guide helps you set up and run the **Luxor TripAdvisor Reviews Dashboard** locally on your machine. It uses **Python**, **Streamlit**, and **NLP libraries** to analyze and visualize traveler sentiments and themes from reviews.
+Welcome to the documentation site for the **Luxor TripAdvisor Reviews Dashboard**. This tool uses **Python**, **Streamlit**, and **NLP libraries** to analyze and visualize traveler sentiments and topic patterns from user reviews.
+
+> ✅ Built by [@aakinolaj](https://github.com/aakinolaj) | [View on GitHub](https://github.com/aakinolaj/reviewers-dashboard)
 
 ---
 
-## 1. System Requirements
+## 📋 1. System Requirements
 
-- Python 3.8 or higher
-- VS Code or any preferred code editor
+- Python 3.8 or higher (recommended: 3.10)
+- VS Code or any code editor
 - Git (optional)
-- Internet connection for package installation
+- Internet access for downloading packages
 
 ---
 
-## 2. Project Structure
+## 📁 2. Project Structure
 
 ```
 luxor_dashboard_app.py   # Main Streamlit app script
@@ -25,53 +27,53 @@ README.md                # Project documentation
 
 ---
 
-## 3. Step-by-Step Setup Instructions
+## 🧰 3. Step-by-Step Setup
 
-### Step 1: Open terminal or command prompt.
+### ➤ Step 1: Open your terminal or command prompt
 
-### Step 2: Navigate to your workspace
+### ➤ Step 2: Navigate to your workspace
 
 ```bash
-cd ~/Desktop             # On macOS/Linux
-D:\Projects              # On Windows
+cd ~/Desktop              # macOS/Linux
+cd D:\Projects            # Windows
 ```
 
-### Step 3: Create and enter a project folder
+### ➤ Step 3: Create and enter a project folder
 
 ```bash
 mkdir luxor_dashboard && cd luxor_dashboard
 ```
 
-### Step 4: Place the following files into this folder:
+### ➤ Step 4: Place the following files into the folder:
 
 - `luxor_dashboard_app.py`
 - `requirements.txt`
 - `luxor_reviews_only.csv`
 - `README.md`
 
-### Step 5: Create a virtual environment
+### ➤ Step 5: Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### Step 6: Activate the environment
+### ➤ Step 6: Activate the virtual environment
 
 ```bash
-# Windows
+# On Windows
 venv\Scripts\activate
 
-# macOS/Linux
+# On macOS/Linux
 source venv/bin/activate
 ```
 
-### Step 7: Install dependencies
+### ➤ Step 7: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 8: Download TextBlob corpora (optional)
+### ➤ Step 8: (Optional) Download TextBlob corpora
 
 ```bash
 python -m textblob.download_corpora
@@ -79,65 +81,67 @@ python -m textblob.download_corpora
 
 ---
 
-## 4. Run the App
+## ▶️ 4. Run the Dashboard
 
-Once setup is complete, run:
+Run the Streamlit app:
 
 ```bash
 streamlit run luxor_dashboard_app.py
 ```
 
-This will launch the app in your default browser at:
-
-```
-http://localhost:8501
-```
+Then open your browser and go to:  
+📍 http://localhost:8501
 
 ---
 
-## 5. Using the Dashboard
+## 🧪 5. Using the Dashboard
 
-- Upload the provided `luxor_reviews_only.csv` or any CSV file with a `review` column
-- Visualize clusters of reviews by **topic** and **sentiment**
-- Use the keyword search bar to filter specific themes (e.g., `"guide"`, `"room"`)
-- View results as **interactive charts** and **tables**
-- Download the annotated results as a CSV for external analysis
+- Upload a CSV with a `review` column
+- Run topic modeling (LDA) and sentiment analysis
+- Search reviews by keyword (e.g., “guide”, “room”)
+- View results as interactive t-SNE plots and tables
+- Export analyzed data as a downloadable CSV
 
 ---
 
-## 6. Troubleshooting
+## 🧯 6. Troubleshooting
 
-- 🔴 `ModuleNotFoundError`? → Recheck your virtual environment and run:
+- ❗ `ModuleNotFoundError`?  
+  → Activate virtual environment and run:
   ```bash
   pip install -r requirements.txt
   ```
 
-- 🛑 Streamlit not launching? → Try upgrading:
+- 🛑 Streamlit not launching?  
+  → Try:
   ```bash
   pip install --upgrade streamlit
   ```
 
-- ⚠️ Upload Error? → Ensure your file has a `review` column with text entries
+- ⚠️ CSV errors?  
+  → Ensure the uploaded file has a valid `review` column.
 
 ---
 
-## 7. Customization Tips
+## ⚙️ 7. Customization Tips
 
-- Change number of LDA topics:
+- Change the number of topics:
   ```python
   num_topics = 4
   ```
 
-- Edit topic labels in the script to match your new themes.
+- Edit topic labels to suit your dataset:
+  ```python
+  topic_labels = {0: "X", 1: "Y", ...}
+  ```
 
-- Replace **TextBlob** with **VADER**, **spaCy**, or **transformers** for sentiment analysis.
+- Use `VADER`, `spaCy`, or `transformers` for more advanced sentiment analysis.
 
-- Deploy to **Streamlit Cloud** for easy online sharing.
+- Deploy to **Streamlit Cloud** for free online access.
 
 ---
 
-## 8. License
+## 📜 8. License
 
-This project is licensed under the **MIT License**.
-
-You may use, modify, and distribute it with proper attribution.
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute with proper attribution.
