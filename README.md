@@ -10,7 +10,7 @@ A Streamlit NLP dashboard for visualizing TripAdvisor-style reviews using topic 
 - Download annotated CSV
 
 ## Architecture
-![Architecture Diagram](assets/bfiliks_lda.png)
+![Architecture Diagram](assets/aakinolaj_lda.png)
 
 ## Local Setup
 Follow instructions in [Luxor_Dashboard_Walkthrough_Guide.docx](docs/guide.md)
