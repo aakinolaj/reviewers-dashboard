@@ -45,3 +45,54 @@ python -m textblob.download_corpora
 
 # Run the app
 streamlit run luxor_dashboard_app.py
+```
+
+---
+
+## 🌍 Deployment
+
+### Streamlit Cloud
+
+You can deploy this app online via [Streamlit Cloud](https://streamlit.io/cloud):
+
+- Connect your GitHub repository
+- Select `luxor_dashboard_app.py` as the main app file
+- Deployment will automatically install packages from `requirements.txt`
+
+---
+
+## ⚙️ Customization Tips
+
+- Change number of LDA topics:
+  ```python
+  num_topics = 4
+  ```
+
+- Update topic labels:
+  ```python
+  topic_labels = {0: "Hospitality", 1: "Comfort", ...}
+  ```
+
+- Replace TextBlob with:
+  - `vaderSentiment` for social media tone
+  - `transformers` (e.g., BERT) for deep contextual analysis
+
+- Add filters (e.g., by date or rating) to explore reviews more interactively
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Credits
+
+- Developed by [@aakinolaj](https://github.com/aakinolaj)
+- Built with open-source tools:
+  - **Streamlit** for frontend UI
+  - **Gensim** for topic modeling
+  - **TextBlob** for sentiment analysis
+  - **Plotly** for interactive visualizations
+- Special thanks to the broader open-source community and educators in NLP and data visualization.
