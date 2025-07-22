@@ -1,8 +1,13 @@
+---
+title: Local Setup
+nav_order: 2
+---
+
 # 🛠️ Local Setup Guide for Reviewer's Dashboard
 
 This guide helps you clone and run the Reviewer's Dashboard locally using Python and Streamlit.
 
----
+...
 
 ## 🚀 Prerequisites
 
