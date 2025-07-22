@@ -1,5 +1,7 @@
 # Reviewer's Dashboard
 
+[![Docs](https://img.shields.io/badge/View-Documentation-blue?style=flat-square)](https://aakinolaj.github.io/reviewers-dashboard/)
+
 A Streamlit-based NLP dashboard for analyzing and visualizing user reviews (e.g., TripAdvisor) through **topic modeling**, **sentiment analysis**, and **interactive charts**. Built with Python, Gensim, TextBlob, and Plotly.
 
 ---
