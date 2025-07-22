@@ -1,22 +1,18 @@
+theme: jekyll-theme-cayman
 title: Reviewer's Dashboard Docs
 description: NLP-powered review analysis using Streamlit, LDA, and sentiment analysis
 
-remote_theme: just-the-docs/just-the-docs
-color_scheme: light
-markdown: kramdown
-
 logo: /assets/reviewers-logo.png
+show_downloads: false
+
+# Custom fields for documentation structure
 github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-      nav_order: 1
-
+# Auxiliary navigation links
 aux_links:
   View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
 
+# Optional includes (may be inactive in Cayman theme)
 include:
   - _includes
 
