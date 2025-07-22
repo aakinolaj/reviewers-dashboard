@@ -1,0 +1,5 @@
+# GitHub Pages config file
+title: Reviewer's Dashboard Docs
+description: NLP-powered review analysis using Streamlit, LDA, and sentiment analysis
+theme: jekyll-theme-cayman
+show_downloads: false
