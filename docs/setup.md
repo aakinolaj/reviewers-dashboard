@@ -7,7 +7,7 @@ nav_order: 2
 
 This guide helps you clone and run the Reviewer's Dashboard locally using Python and Streamlit.
 
-...
+---
 
 ## 🚀 Prerequisites
 
