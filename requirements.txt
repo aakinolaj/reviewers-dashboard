@@ -1,8 +1,20 @@
-streamlit
-pandas
-numpy
-plotly
-textblob
-gensim
-scikit-learn
-nltk
+# Core dependencies
+streamlit==1.35.0         # Web app framework
+pandas==2.2.2             # DataFrame handling
+numpy==1.26.4             # Numerical operations
+plotly==5.22.0            # Interactive plots
+
+# NLP & Text Analysis
+textblob==0.17.1          # Sentiment analysis
+gensim==4.3.2             # Topic modeling (LDA)
+nltk==3.8.1               # Tokenization, stopwords, etc.
+
+# ML & Dimensionality Reduction
+scikit-learn==1.4.2       # t-SNE, clustering, etc.
+
+# Optional: For future upgrades
+# pyLDAvis==3.3.1          # Interactive LDA topic visualization
+# vaderSentiment==3.3.2    # Alternative sentiment analysis
+# beautifulsoup4==4.12.3   # For HTML/text cleanup (if needed)
+# spacy==3.7.2             # For advanced NLP tasks
+# wordcloud==1.9.3         # To generate word clouds
