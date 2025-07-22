@@ -31,7 +31,7 @@ A Streamlit-based NLP dashboard for analyzing and visualizing user reviews (e.g.
 ## 🛠️ Local Setup
 
 For a step-by-step guide on running the dashboard locally, refer to:  
-📄 [Setup Guide (View Online)](https://aakinolaj.github.io/reviewers-dashboard/docs/setup.html)
+📄 [Setup Guide (View Online)](https://aakinolaj.github.io/reviewers-dashboard/docs/setup.md)
 
 ### Quickstart
 
