@@ -13,6 +13,15 @@ just_the_docs:
     docs:
       name: Documentation
       nav_order: 1
+include:
+  - _includes
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      head: _includes/head_custom.html
 
 aux_links:
   View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
