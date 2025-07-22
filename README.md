@@ -24,7 +24,7 @@ A Streamlit-based NLP dashboard for analyzing and visualizing user reviews (e.g.
 ## 🛠️ Local Setup
 
 For a step-by-step guide on running the dashboard locally, refer to:  
-📄 [`Luxor_Dashboard_Walkthrough_Guide.docx`](docs/guide.md)
+📄 [Luxor Dashboard Walkthrough Guide](docs/guide.md)
 
 ### Quickstart
 
