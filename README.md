@@ -25,7 +25,7 @@ A Streamlit-based NLP dashboard for analyzing and visualizing user reviews (e.g.
 
 ## 📊 Live Demo (Streamlit App)
 
-[Launch Streamlit App](https://your-streamlit-app-url.streamlit.app)
+[Launch Streamlit App](https://reviewers-dashboard.streamlit.app/)
 
 ---
 ## 🛠️ Local Setup
