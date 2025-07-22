@@ -1,5 +1,19 @@
 # GitHub Pages config file
 title: Reviewer's Dashboard Docs
 description: NLP-powered review analysis using Streamlit, LDA, and sentiment analysis
-theme: jekyll-theme-cayman
-show_downloads: false
+theme: just-the-docs
+color_scheme: light
+markdown: kramdown
+
+# GitHub repo link
+github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
+
+# Sidebar navigation support
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      nav_order: 1
+
+aux_links:
+  View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
