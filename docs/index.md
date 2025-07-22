@@ -1,10 +1,15 @@
+---
+title: Overview
+nav_order: 1
+---
+
 # 📊 Luxor Reviewer's Dashboard – Walkthrough Guide
 
 Welcome to the documentation site for the **Luxor TripAdvisor Reviews Dashboard**. This tool uses **Python**, **Streamlit**, and **NLP libraries** to analyze and visualize traveler sentiments and topic patterns from user reviews.
 
 > ✅ Built by [@aakinolaj](https://github.com/aakinolaj) | [View on GitHub](https://github.com/aakinolaj/reviewers-dashboard)
 
----
+...
 
 ## 📋 1. System Requirements
 
