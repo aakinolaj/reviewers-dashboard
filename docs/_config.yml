@@ -5,14 +5,18 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 markdown: kramdown
 
-github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
 logo: /assets/reviewers-logo.png
+github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
 
 just_the_docs:
   collections:
     docs:
       name: Documentation
       nav_order: 1
+
+aux_links:
+  View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
+
 include:
   - _includes
 
@@ -22,6 +26,3 @@ defaults:
       path: ""
     values:
       head: _includes/head_custom.html
-
-aux_links:
-  View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
