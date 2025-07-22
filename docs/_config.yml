@@ -6,6 +6,7 @@ color_scheme: light
 markdown: kramdown
 
 github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
+logo: /assets/reviewers-logo.png
 
 just_the_docs:
   collections:
