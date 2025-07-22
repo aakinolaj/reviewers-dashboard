@@ -5,20 +5,9 @@ description: NLP-powered review analysis using Streamlit, LDA, and sentiment ana
 logo: /assets/reviewers-logo.png
 show_downloads: false
 
-# Custom fields for documentation structure
+# GitHub repo link
 github_repo_url: https://github.com/aakinolaj/reviewers-dashboard
 
-# Auxiliary navigation links
+# Auxiliary nav link
 aux_links:
   View on GitHub: https://github.com/aakinolaj/reviewers-dashboard
-
-# Optional includes (may be inactive in Cayman theme)
-include:
-  - _includes
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      head: _includes/head_custom.html
